@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<title>C.H.E.R.U.B.</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="/docs/5.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+<style>
+body {font-family: "Lato", sans-serif; background: url("../img/cherubbg.jpeg"); color: aliceblue}
+.mySlides {display: none}
+.selector {text-align: center;}
+.content {height: 520px; width: 935px; border-radius: 20px; overflow: hidden; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+.navigation {position: absolute; bottom: -20px; left: 40%; transform: translate(-50px); display: flex;}
+.bar {width: 70px; height: 17px; border: 2px solid white; margin: 6px; border-radius: 5px; cursor: pointer; transition: 0.6s;}
+input {display: none;}
+.bar:hover { background-color: white;}
+.slides {display: flex; width: 500%; height: 100%;}
+.slide {transition: .6s; border: solid white;}
+.HASH {display: flex; justify-content: space-between;}
+.sobre {width: 800px; overflow: hidden; white-space: initial;}
+.capitalize {font-size: 100px;line-height: 70px;}
+
+
+</style>
+</head>
+<body  style="font-family: helvetica;">
+
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large" style="cursor: default;" ><b>Miúdos a Votos</b></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large" style="cursor: default;" ><b>ESLFB</b></a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More"><b>Desenvolvedores</b> <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a class="w3-bar-item w3-button" style="cursor: pointer;" target="blank" href="https://www.instagram.com/filipeproenzaa/">Filipe Proença <i class="fa fa-instagram"></i> </a>
+        <a class="w3-bar-item w3-button" style="cursor: pointer;" target="blank" href="https://www.instagram.com/gabriel_f._/">Gabriel Fortunato <i class="fa fa-instagram"></i> </a>
+        <a class="w3-bar-item w3-button" style="cursor: pointer;" target="blank" href="https://www.instagram.com/sebastiaopmonteiro/">Sebastião Dias <i class="fa fa-instagram"></i> </a>
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><img src="../img/logob.png" alt="" width="100px"></i></a>
+  </div>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+    <br>
+    <h1 style="text-align: center; font-size: large;"><b> VOTA - O Recruta</b></h1>
+    <h1 style="text-align: center; font-size: medium;"><b> Dia 23/03/2022 </b></h1>
+  <!-- Automatic Slideshow Images -->
+  <div class="content"></div>
+    <div class="slides">
+      <input type="radio" name="slide" id="slide1"checked>
+      <input type="radio" name="slide" id="slide2">
+      <input type="radio" name="slide" id="slide3">
+      <input type="radio" name="slide" id="slide4">
+      <input type="radio" name="slide" id="slide5">
+    </div>
+    <div class="mySlides w3-display-container w3-center">
+        <video class="slide s1"width="700px" height="400px" controls style="text-align: center;"><source src="../vid/cherub.mp4"></video>
+        <div class="navigation">
+          <label class="bar" id ="btn1" for="slide1"></label>
+          <label class="bar" id ="btn2" for="slide2"></label>
+          <label class="bar" id ="btn3" for="slide3"></label>
+          <label class="bar" id ="btn4" for="slide4"></label>
+          <label class="bar" id ="btn5" for="slide5"></label>
+        </div>
+    </div>
+  </div>
+
+  <!-- Miúdos a Voto Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px"  id="band">
+    <h2 class="w3-wide">Miúdos a Votos</h2>
+    <p class="w3-justify" style="size: 10px;">&nbsp; &nbsp; &nbsp; No âmbito da iniciativa Miúdos a votos!, organizada pela VISÃO Júnior e pela Rede de Bibliotecas Escolares, serão promovidos cinco webinars, entre os dias 27 de janeiro e 8 de fevereiro, destinados a alunos e professores/professores bibliotecários. <br>
+
+      &nbsp; &nbsp; &nbsp; Em três dos webinars, o foco será o universo da informação, havendo a possibilidade de os alunos colocarem questões e trocarem ideias com a equipa redatorial da VISÃO Júnior. <br>
+
+      &nbsp; &nbsp; &nbsp; Noutro webinar, da responsabilidade da Rádio Miúdos, o objetivo será aprender como gravar um podcast com qualidade. Dirige-se, sobretudo, às turmas que se proponham gravar tempos de antena de rádio para a campanha eleitoral, que irá decorrer de 7 de fevereiro a 21 de março. <br>
+
+      &nbsp; &nbsp; &nbsp; Estas quatro sessões destinam-se aos alunos, podendo o respetivo professor assistir em direto com a sua turma, a partir da sala de aula ou da biblioteca. Podem também inscrever-se nestas sessões professores/professores bibliotecários, a título individual. Os alunos que estiverem em casa, em isolamento, poderão também inscrever-se individualmente. Nas sessões, haverá um tempo reservado para perguntas e comentários de quem está a assistir, permitindo a interação dos organizadores com o público. <br>
+
+      &nbsp; &nbsp; &nbsp; Haverá, também, um quinto webinar, destinado exclusivamente a professores/professores bibliotecários, para esclarecimento de dúvidas e partilha de questões relacionadas com a dinamização desta iniciativa.</p> 
+      <p class="da" style="text-align: right;"><a href="http://www.rbe.mec.pt/np4/MiudosaVotos.html" target="blank">https://www.rbe.mec.pt/np4/MiudosaVotos.html</a></p>
+  </div>
+
+  <!-- The Tour Section -->
+  <div class="w3-black" id="tour">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px;">
+      <h2 class="w3-wide w3-center">Robert Muchamore</h2>
+      <p class="w3-opacity w3-center"><i>Autor</i></p>
+    </div>
+    <div class="HASH">
+      <span ><img src="../img/cherubrobert.png" alt="" width="300px"></span>
+      <span class="sobre">
+        <p> <span class="capitalize">R</span>obert Muchamore nasceu a 26 de dezembro de 1972, em Islington, Inglaterra. Trabalhou durante treze anos como detetive privado, mas abandonou a profissão para se dedicar à escrita a tempo inteiro. Costuma levar quatro a cinco meses a escrever um livro, sendo que dedica o primeiro à pesquisa e o segundo à planificação da história. Só depois escreve. Segundo o próprio, tentar escrever aquilo que gostaria de ter lido aos 13 anos de idade foi a principal razão para a criação da coleção CHERUB</p>
+        <br>
+        <br>
+        <p class="da" style="text-align: right;"><a href="https://www.wook.pt/autor/robert-muchamore/39123" target="blank">https://www.wook.pt/autor/robert-muchamore/39123</a></p>
+      </span>
+      <span><img src="../img/cherubanjo.png" alt="" width="300px"></span>
+    </div>
+    <br><br><br><br>
+    </div>
+  </div>
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px;"  id="band">   
+    <h2 class="w3-wide" style="font-size: 50px; line-height: 70px;">O Recruta</h2>
+    <p class="w3-center"><i>Livro</i></p>
+    <p class="w3-justify" style="size: 10px;">&nbsp; &nbsp; &nbsp; Os agentes da CHERUB têm todos menos de dezassete anos. Vestem calças de ganga e t-shirts e parecem crianças perfeitamente normais… mas não são.
+
+      Eles são profissionais treinados, enviados para missões de espionagem contra terroristas e traficantes de drogas temidos internacionalmente.
+      Mas, para efeitos oficiais, estas crianças NÃO EXISTEM.
+      
+      James é o mais recente recruta da CHERUB. É brilhante a matemática e a CHERUB precisa dele. Esperam-no 100 dias terríveis de recruta.
+      
+      A aventura está a começar...</p>  <br><br><br>
+    <p style="text-align: right;"><a href="https://www.portoeditora.pt/produtos/ficha/o-recruta/188268" target="blank">https://www.portoeditora.pt/produtos/ficha/o-recruta/188268</a></p>
+  </div>
+  <div class="w3-container w3-content w3-center w3-padding-30" style="max-width:800px;"  id="band">  
+    <h2 class="w3-wide" style="font-size: 50px; line-height: 70px;">Podcast <i class="fa fa-podcast"></i></h2><br>
+    <p class="w3-justify" style="size: 10px;"><audio src="#" controls style="width: 100%;"></audio></p>
+    <br><br><br>
+  </div>
+  <div class="w3-container w3-content w3-center w3-padding-30" style="max-width:800px;"  id="band">   
+    <h2 class="w3-wide" style="font-size: 50px; line-height: 70px;">Personagens</h2>
+  </div>
+  <br>
+
+  <!-- Personagens -->>
+  <div class="HASH">
+    <span class="col" style="border: 10px;" >
+      <div class="card shadow-sm" style="width: 300px; padding: 40px;">
+        <img src="../img/James_Adams.jpg" width="200px" alt="">
+        <div class="card-body">
+          <p class="card-text" style="font: bold">&nbsp;&nbsp; James Choke / James Adams - James Robert Anthony Adams (anteriormente James Robert Choke) é o personagem principal da primeira série CHERUB.</p>
+        </div>
+      </div>
+    </span>
+    <span class="col" style="border: 10px;">
+      <div class="card shadow-sm" style="width: 300px; padding: 40px;">
+        <img src="../img/Kyle_Blueman.jpg" width="200px" alt="">
+        <div class="card-body">
+          <p class="card-text" style="font: bold">&nbsp;&nbsp; Kyle Blueman - Kyle Blueman é amigo de James na CHERUB, ele conheceu James na casa de Nebraska.</p>
+        </div>
+      </div>
+    </span>
+    <span class="col" style="border: 10px;">
+      <div class="card shadow-sm" style="width: 300px; padding: 40px;">
+        <img src="../img/Lauren_Adams.jpg" width="200px" alt="">
+        <div class="card-body">
+          <p class="card-text" style="font: bold">&nbsp;&nbsp; Lauren Zoe Onions / Lauren Adams - Lauren Zoe Adams (anteriormente Lauren Zoe Onions) nasceu de Gwen Choke e Ron Onions. Ela tem um meio-irmão mais velho, James Adams, que também está no CHERUB.</p>
+        </div>
+      </div>
+    </span>
+  </div>
+  <div class="HASH">
+    <span class="col" style="border: 10px;" >
+      <div class="card shadow-sm" style="width: 300px; padding: 40px;">
+        <img src="../img/Norman_Large.jpg" width="200px" alt="">
+        <div class="card-body">
+          <p class="card-text" style="font: bold">&nbsp;&nbsp; Mr. Large - Norman Large é um instrutor de treinamento na CHERUB que tem prazer em ver crianças pequenas se contorcendo e lutando.</p>
+        </div>
+      </div>
+    </span>
+    <span class="col" style="border: 10px;">
+      <div class="card shadow-sm" style="width: 300px; padding: 40px;">
+        <img src="../img/Kerry_Chang.png" width="200px" alt="">
+        <div class="card-body">
+          <p class="card-text" style="font: bold">&nbsp;&nbsp; Kerry Chang - 
+            Kerry foi parceira de James no treinamento básico, os dois entraram em conflito no início, mas começaram a trabalhar em equipe muito melhor quando foram enviados para o exercício final do treinamento básico.</p>
+        </div>
+      </div>
+    </span>
+    <span class="col" style="border: 10px;">
+      <div class="card shadow-sm" style="width: 300px; padding: 40px;">
+        <img src="../img/Bruce_Norris.jpg" width="200px" alt="">
+        <div class="card-body">
+          <p class="card-text" style="font: bold">&nbsp;&nbsp; Bruce Norris - James conheceu Bruce quando ele teve seu teste de artes marciais, e desde então esteve em missões com ele. Embora ele seja durão, ele dorme com um ursinho de pelúcia azul
+          </p>
+        </div>
+      </div>
+    </span>
+  </div>
+  <p style="text-align: center;"><a href="https://cherub.fandom.com/wiki/Characters" target="blank">https://cherub.fandom.com/wiki/Characters</a></p>
+  
+  
+
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p> 
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";      
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+let video = document.querySelector('video')
+let btn1 = document.querySelector('#btn1')
+let btn2 = document.querySelector('#btn2')
+let btn3 = document.querySelector('#btn3')
+let btn4 = document.querySelector('#btn4')
+let btn5 = document.querySelector('#btn5')
+
+btn1.addEventListener('click', () => {
+  video.src = '../vid/cherub.mp4'
+})
+
+btn2.addEventListener('click', () => {
+  video.src = '../vid/cherub2.mp4'
+})
+
+</script>
+
+</body>
+</html>
